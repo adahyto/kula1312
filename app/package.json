@@ -1,0 +1,36 @@
+{
+  "name": "kula1312",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --no-clear"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "@smui/button": "^6.1.4",
+    "@smui/card": "^6.1.4",
+    "@smui/data-table": "^7.0.0-beta.0",
+    "@smui/list": "^6.1.4",
+    "@smui/select": "^6.2.0",
+    "@smui/textfield": "^6.1.4",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sirv-cli": "^2.0.0",
+    "svelte-file-dropzone": "^1.0.0",
+    "svelte-forms": "^2.3.1",
+    "svelte-material-ui": "^6.2.0",
+    "svelte-navigator": "^3.1.5",
+    "svelte-pdf": "^1.0.13",
+    "svelte-table": "^0.3.4"
+  }
+}
