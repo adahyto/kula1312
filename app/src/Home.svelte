@@ -8,7 +8,7 @@
 </script>
 
 <header>
-  <h1>Witaj na stronce o Kuli1312!</h1>
+  <h1>Kula1312!</h1>
 </header>
 <main>
   <img src="./assets/kula1312.jpg" alt="zdjęcie Kuli1312" />
