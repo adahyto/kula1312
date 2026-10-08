@@ -6,25 +6,9 @@
   import { Router, Route } from "svelte-navigator";
 </script>
 
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/svelte-material-ui@6.0.0/bare.min.css"
-/>
-<!-- Material Icons -->
-<link
-  rel="stylesheet"
-  href="https://fonts.googleapis.com/icon?family=Material+Icons"
-/>
-<!-- Roboto -->
-<link
-  rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700"
-/>
-<!-- Roboto Mono -->
-<link
-  rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Roboto+Mono"
-/>
+<!-- Svelte Material UI styles, Material Icons and Roboto fonts: copies on this server (public/vendor, public/fonts) -->
+<link rel="stylesheet" href="/vendor/svelte-material-ui-6.0.0-bare.min.css" />
+<link rel="stylesheet" href="/fonts/fonts.css" />
 <Router>
   <Nav />
   <Route path="/">
