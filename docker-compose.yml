@@ -11,6 +11,9 @@ services:
   nodeserver:
     restart: always
     logging: *logging
+    # Caps so that one runaway container cannot take the whole server down (peak use 2026-10-09: ~30 MB)
+    mem_limit: 512m
+    pids_limit: 256
     build:
       context: ./app
     ports:
@@ -18,6 +21,8 @@ services:
   nginx:
     logging: *logging
     restart: always
+    mem_limit: 128m
+    pids_limit: 64
     build:
       context: ./nginx
     ports:
