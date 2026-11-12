@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
 
     <title>Kula1312</title>
 
@@ -11,17 +12,8 @@
     <link rel="stylesheet" href="/build/bundle.css" />
     <link rel="manifest" href="manifest.json" />
     <script defer src="/build/bundle.js"></script>
+    <script defer src="/sw-register.js"></script>
   </head>
 
-  <body>
-    <script>
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", () => {
-          navigator.serviceWorker
-            .register("/service-worker.js")
-            .then((reg) => {});
-        });
-      }
-    </script>
-  </body>
+  <body></body>
 </html>
