@@ -1,0 +1,3 @@
+# kula.doner.cloud stays out of search results: each page says "noindex" (X-Robots-Tag), and robots may read it
+User-agent: *
+Allow: /
